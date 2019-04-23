@@ -12,7 +12,7 @@ This example used [Javascript Kubernetes Client](https://github.com/kubernetes-c
 
 # Points
 
-## Cloud Function probably doesn't support cloud_auth.
+## Cloud Functions probably doesn't support cloud_auth.
 
 [cloud_auth.ts](https://github.com/kubernetes-client/javascript/blob/master/src/cloud_auth.ts) is used `gcloud` .It is not available on Cloud Functions.
 
