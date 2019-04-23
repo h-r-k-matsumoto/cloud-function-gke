@@ -71,11 +71,7 @@ async function getClient(cluster, token) {
       {
         name: env.k8s.clusterFullName,
         user: {
-          token: token,
-          authProvider: {
-            config: {
-            }
-          }
+          token: token
         }
       }
     ]
