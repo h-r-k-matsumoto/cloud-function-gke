@@ -111,6 +111,7 @@ async function podList() {
 }
 
 exports.ctl = (req, res) => {
-  podList();
-  res.status(200).send();
+  podList().then(() => {
+    res.status(200).send();
+  });
 }
